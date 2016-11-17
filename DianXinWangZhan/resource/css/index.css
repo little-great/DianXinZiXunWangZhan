@@ -1,0 +1,114 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 2016-6-16, 9:06:35
+    Author     : xjx
+*/
+
+*{  font-family:"微软雅黑";
+    padding: 0px;
+    margin: 0px;
+	
+a{text-decoration: none;} 
+}
+html{
+    min-height: 500px;
+    /*overflow: hidden;*/
+}
+.page{
+	width: 100%;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 70px;
+	position: absolute;
+	/*background-color: #F00;*/
+	font-size:0;
+}
+.showImg{
+    width: 100%;
+}
+#top{
+    border: 1px solid black;
+    width: 1300px;
+    background-color: black;
+    line-height: 70px;
+    height: 70px;
+    z-index: 200;
+}
+.top-menu{
+    color: white;
+    margin-left: 30px;
+    padding-bottom: 23px;
+}
+#top-div{
+    position: fixed;
+	top:0px;
+    height: 72px;
+    width: 100%;
+    background-color: black;
+    z-index: 100;
+}
+#1{
+	display:block;
+	top:200px;
+	}	
+
+#top-logo{
+    margin-left: 200px;
+    margin-top: 5px;
+    vertical-align:middle;
+}
+.top-select{
+    width: 140px;
+    background-color:;
+	color:#000;
+    position: fixed;
+    z-index: 50;
+    /*top: -272px;*/
+	top:-52px;
+}
+
+li{
+	background-color:#CCC;
+	color:#000;
+    list-style-type: none;
+    line-height: 30px;
+    border-bottom: 1px solid #858585;
+    cursor: pointer;
+}
+.menu-select{
+    border-bottom: white 5px solid;
+}
+#top a{
+    cursor: pointer;
+}
+.font-div{
+	background-color:white;
+	 filter:alpha(opacity=30);  
+     opacity: 0.8;  
+}
+
+.font-div1{
+	background-color:white;
+	 filter:alpha(opacity=30);  
+     opacity: 0.8;  
+}
+.font-div2{
+	background-color:yellow;
+	 filter:alpha(opacity=30);  
+     opacity: 0.3;  
+}
+.font-div3{
+	background-color:gray;
+	 filter:alpha(opacity=50);  
+     opacity: 0.5;  
+}
+#select-div  a{display:block;text-decoration:none;}
+/*#select-div  a{text-decoration:none;}*/
+#select-div  li{text-align:center;}
+#select-div  a{ background-color:rgb(246,246,246);color:#000;}
+#select-div  a:hover{ background-color:#00F;}
